@@ -52,7 +52,7 @@ end
 #####################################################
 
 def runner
-  welcome #introduce the game
+  welcome #to the game
   card_total = initial_round 
   until card_total > 21 
     card_total = hit?(card_total)
